@@ -1,0 +1,45 @@
+
+
+body{
+    background-color: #FDF4ED;
+}
+
+.navbar{
+    background-image: url('nav-background.jpg');
+    width: 70%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #FDF4ED;
+}
+
+.nav-link{
+    color: #fbd5b8;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 10px;
+}
+
+.nav-home{
+    color: #fbd5b8;
+}
+
+.logo-nav{
+    position: absolute;
+    top: 5px;
+}
+
+.nav-cont{
+    margin-left: 15em;
+}
+
+.hero{
+    background-image:url('Hero101.png');
+    width: 100%;
+    height: 80rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

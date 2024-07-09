@@ -3,19 +3,17 @@ import React from "react";
 export const Header = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
         <div className="container-fluid">
-        <div className="container">
           <a className="navbar-brand" href="#">
-            <img
-              src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+            <img className="logo-nav"
+              src="logo.png"
               alt="Bootstrap"
-              width={30}
-              height={24}
+              width={170}
+              height={165}
             />
           </a>
-        </div>
-          <button
+          {/* <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -24,11 +22,11 @@ export const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
-          </button>
-          <div className="collapse navbar-collapse " id="navbarNav">
+          </button> */}
+          <div className="nav-cont collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="#" id="nav-home">
                   HOME
                 </a>
               </li>
