@@ -3,48 +3,6 @@ import React from "react";
 export const Header = () => {
   return (
     <header>
-      {/* <nav className="navbar bg-body-tertiary">
-        <div className="container">
-          <a className="navbar-brand" href="#">
-            <img
-              src="/docs/5.3/assets/brand/bootstrap-logo.svg"
-              alt="Bootstrap"
-              width={30}
-              height={24}
-            />
-          </a>
-        </div>
-        <div classname="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                HOME
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                ABOUT
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                SERVICES
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                PORTFOLIO
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                CONTACT
-              </a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav> */}
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
         <div className="container">
