@@ -1,6 +1,10 @@
-*{
-    
-}
+
+.SSection {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    }
 
 .balsamiq-sans-regular {
     font-family: "Balsamiq Sans", sans-serif;
@@ -30,6 +34,20 @@ body{
     background-color: #FDF4ED;
     max-width: 100%;
     overflow-x: hidden;
+}
+
+.tem
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6em;
+    background-image: url(About-back.png);
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
 }
 
 .navbar{
@@ -70,7 +88,7 @@ body{
 
 .hero{
     width: 100%;
-    height: 80rem;
+    height: 70rem;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -115,6 +133,13 @@ body{
     z-index: -9;
 }
 
-.SpaceSection{
-    
+.ss1{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 60em;
+}
+
+.foot{
+    width: 100%;
 }
