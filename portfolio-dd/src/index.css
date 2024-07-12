@@ -1,15 +1,47 @@
+*{
+    
+}
 
+.balsamiq-sans-regular {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .balsamiq-sans-bold {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .balsamiq-sans-regular-italic {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .balsamiq-sans-bold-italic {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }  
 
 body{
     background-color: #FDF4ED;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .navbar{
-    background-image: url('nav-background.png');
     width: 70%;
     height: 100px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.nav-bac{
+    position: absolute;
+    z-index: -10;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
@@ -21,6 +53,7 @@ body{
     font-weight: bolder;
     font-size: xx-large;
     margin: 10px;
+
 }
 
 .nav-home{
@@ -29,7 +62,8 @@ body{
 
 .logo-nav{
     position: absolute;
-    top: 5px;
+    top: .3em;
+    left: 2em;
 }
 
 .nav-cont{
@@ -37,9 +71,48 @@ body{
 }
 
 .hero{
-    background-image:url('Hero101.png');
     width: 100%;
     height: 80rem;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hero-box{
+    position: absolute;
+    left: -5em;
+    width: 2.5em;
+    height: 40em;
+    background-color: #757575;
+}
+
+.hero-section {
+    position: absolute;
+    top: 18em;
+    left: 12rem;
+    width: 50%;
+}
+
+.hero-name0{
+    font-size: 5em;
+    margin-left: .2em;
+    color: #BDBDBD;
+    font-weight: 600;
+}
+
+.hero-name1{
+    font-size: 8em;
+    font-weight: bolder;
+    line-height: 1em;
+    color: #757575;
+}
+
+.hero-name2{
+    font-weight: light;
+}
+
+.heroImg{
+    position: absolute;
+    top: -10em;
+    right: -20em;
+    z-index: -9;
 }

@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
-        <div className="container-fluid">
+        <div className="container-fluid mt-3">
           <a className="navbar-brand" href="#">
             <img className="logo-nav"
               src="logo.png"
@@ -53,6 +53,7 @@ export const Header = () => {
             </ul>
           </div>
         </div>
+        <img src="nav-background.png" alt="nav" className="nav-bac"/>
       </nav>
     </header>
   );
