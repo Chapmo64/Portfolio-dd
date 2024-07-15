@@ -142,4 +142,53 @@ body{
 
 .foot{
     width: 100%;
+    background-image: url('Fotter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+#foot-p{
+    font-size: 3.5em;
+    text-align: center;
+    color: #FDF4ED;
+    text-decoration: underline;
+}
+
+.fot-link{
+    color: #FDF4ED;
+    justify-content: center;
+}
+
+.fot-link-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    margin-top: 2em;
+    list-style: none;
+    gap: 3rem;
+    font-size: 2em;
+    opacity: .8;
+    margin-left: 1.5em;
+}
+
+#foot-p-2{
+    font-size: 1em;
+    color: #FDF4ED;
+    opacity:.5;
+    text-align: center;
+}
+
+.fot-link-icon{
+    font-size: 3em;
+    color: #FDF4ED;
+    transition: color 300ms;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 2.5em;
+    margin-left: 2.5em;
+    margin-top: 1em;
+    margin-bottom: -1em;
 }
