@@ -36,10 +36,6 @@ body{
     overflow-x: hidden;
 }
 
-.about{
-    background-color: #eecbb71e;
-}
-
 .tem
 {
     display: flex;
@@ -128,8 +124,10 @@ body{
 
 .logo-nav{
     position: absolute;
-    top: .3em;
-    left: 2em;
+    top: 1em;
+    left: 3em;
+    width: 7em;
+    height: 7em;
 }
 
 .nav-cont{

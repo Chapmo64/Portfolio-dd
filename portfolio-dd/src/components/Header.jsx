@@ -7,7 +7,7 @@ export const Header = () => {
         <div className="container-fluid mt-3">
           <a className="navbar-brand" href="#">
             <img className="logo-nav"
-              src="logo.png"
+              src="BLogo.png"
               alt="Bootstrap"
               width={170}
               height={165}
