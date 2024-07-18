@@ -1,9 +1,11 @@
 import React from "react";
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 export const Header = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+      <nav className="navbar navbar-expand-lg  fixed-top ">
         <div className="container-fluid mt-3">
           <a className="navbar-brand" href="#">
             <img className="logo-nav"
@@ -13,7 +15,7 @@ export const Header = () => {
               height={165}
             />
           </a>
-          {/* <button
+          <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -22,7 +24,7 @@ export const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
-          </button> */}
+          </button>
           <div className="nav-cont collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
@@ -31,9 +33,14 @@ export const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                {/* <a className="nav-link active" aria-current="page" href="#">
                   ABOUT
-                </a>
+                </a> */}
+                <Link to='#about' id="link">
+                  <span className="nav-link active" aria-current="page">
+                    ABOUT
+                  </span>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
@@ -46,9 +53,14 @@ export const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                {/* <a className="nav-link active" aria-current="page" href="#">
                   CONTACT
-                </a>
+                </a> */}
+                <Link to='#Fotter' id="link">
+                  <span className="nav-link active" aria-current="page">
+                    CONTACT
+                  </span>
+                </Link>
               </li>
             </ul>
           </div>
