@@ -2,7 +2,7 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div className='container-fluid tem' >
+    <div className='container-fluid tem' style={{backgroundImage: "url(About-back.png)",}}>
         <h1 id='box-title'>JP5INGH</h1>
         <img src="Mugshot.jpg" alt="jp5ingh" id='Mshot'/>
         <div className="container-info">

@@ -3,6 +3,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 5em;
     width: 80%;
     }
 
@@ -45,7 +46,7 @@ body{
     display: flex;
     justify-content: center;
     padding-bottom: 6em;
-    background-image: url(About-back.png);
+    /* background-image: url(About-back.png); */
     background-repeat: no-repeat;
     background-attachment: contain;
     width: 108em;
@@ -56,7 +57,7 @@ body{
     border-radius: 2em;
 }
 
-#box-title {
+#box-title, #box-title-01{
     font-family: "Balsamiq Sans", sans-serif;
     font-size: 5em;
     color: #FDF4ED;
@@ -64,6 +65,10 @@ body{
     position: relative;
     left: 1em;
     margin-top: .3em;    
+}
+
+#box-title-01{
+    left: -7.8em;
 }
 
 .tem-contain-info{
@@ -96,6 +101,7 @@ body{
 
 .container-info{
     position: relative;
+    /* background-color: #F9DFCE; */
     top: 14em;
     left: -8em;
 }

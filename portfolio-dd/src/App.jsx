@@ -6,7 +6,7 @@ import { SpaceSection } from './components/SpaceSection'
 import { About } from './components/About'
 import { SpaceSection01 } from './components/SpaceSection01'
 import { Fotter } from './components/Fotter'
-
+import { Skills } from './components/Skills';
 
 const App = () => {
   return (
@@ -17,6 +17,7 @@ const App = () => {
     <SpaceSection/>
     <About/>
     <SpaceSection01/>
+    <Skills></Skills>
     <Fotter/>
     </BrowserRouter>
     </>
