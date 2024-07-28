@@ -41,7 +41,7 @@ body{
     text-decoration: none;
 }
 
-.tem
+.tem, .tem1
 {
     display: flex;
     justify-content: center;
@@ -57,6 +57,10 @@ body{
     border-radius: 2em;
 }
 
+.tem1{
+    display: block;
+}
+
 #box-title, #box-title-01{
     font-family: "Balsamiq Sans", sans-serif;
     font-size: 5em;
@@ -68,7 +72,14 @@ body{
 }
 
 #box-title-01{
-    left: -7.8em;
+    position: relative;
+    left: 8em;
+    background-color: #d7ab92;
+    height: 1.4em;
+    width: 4.3em;
+    text-align: center;
+    border-radius: .35em;
+    align-content: center;
 }
 
 .tem-contain-info{
@@ -269,8 +280,25 @@ body{
     margin-bottom: -1em;
 }
 
+.container-info-skills {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    row-gap: 2.5em; /* Adjust the gap between items as needed */
+    column-gap: -1em;
+    margin-top: 3em;
+}
+
+.container-info-skills img {
+    width: 16em; 
+    height: auto;
+    object-fit: contain; /* Ensures the images fit within their containers without distortion */
+}
+
+
 ::-webkit-scrollbar{
     height: 20%;
     width: 10%;
 }
+
 
