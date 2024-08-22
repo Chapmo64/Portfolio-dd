@@ -43,9 +43,14 @@ export const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                {/* <a className="nav-link active" aria-current="page" href="#">
                   SERVIECS
-                </a>
+                </a> */}
+                <Link to='#services' id="link">
+                  <span className="nav-link active" aria-current="page">
+                    SERVICES
+                  </span>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">

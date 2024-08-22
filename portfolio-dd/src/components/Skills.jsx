@@ -4,8 +4,8 @@ import React from 'react'
 
 export const Skills = () => {
   return (
-    <div className='container-fluid tem1'
-        style={{backgroundImage: "url(skillbg.png)",}}
+    <div className='container-fluid tem1' 
+        style={{backgroundImage: "url(Skillback.png)",}}
     >
         <h1 id='box-title-01'>SKILLS</h1>
         <div className="container-info-skills" >

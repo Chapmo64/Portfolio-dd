@@ -17,10 +17,10 @@ export const Fotter = () => {
         <br />
         <br />
         <br />
-        <br />
+
         <p id='foot-p'>GET IN TOUCH</p>
         <div className="fot-link-icon">
-        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-x-twitter" ></i>
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-linkedin"></i>
         <i class="fa-brands fa-deviantart"></i>
