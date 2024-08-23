@@ -1,0 +1,22 @@
+.my-slider-progress {
+    background: #ccc;
+  }
+  
+  .my-slider-progress-bar {
+    background: brown;
+    height: 10px;
+    transition: width 200ms ease;
+    width: 0;
+  }
+  
+  .splide__slide{
+    background-color: #ccc;
+    height: 35em;
+    width: auto;
+  }
+
+  .splide{
+    padding-left: 15em;
+    padding-right: 15em;
+    
+  }

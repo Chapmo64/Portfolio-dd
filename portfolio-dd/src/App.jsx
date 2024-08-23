@@ -5,8 +5,12 @@ import { Hero } from './components/Hero';
 import { SpaceSection } from './components/SpaceSection';
 import { About } from './components/About';
 import { SpaceSection01 } from './components/SpaceSection01';
-import { Fotter } from './components/Fotter'; // Corrected spelling
+import { Fotter } from './components/Fotter';
 import { Skills } from './components/Skills';
+import Portfolio from './components/Portfolio';
+import { Port_Section } from './components/Port_Section';
+import { Port_Section2 } from './components/Port_Section2';
+
 
 const App = () => {
   return (
@@ -36,7 +40,14 @@ const HomePage = () => {
 const PortfolioPage = () => {
   return(
   <>
-        <About />
+    <div id='Pstart' className="app-background">
+      <br /><br /><br /><br /><br /><br /><br />
+      <Port_Section></Port_Section>
+      <Portfolio></Portfolio>
+      <br /><br />
+      <Port_Section2></Port_Section2>
+      <Portfolio></Portfolio>
+    </div>
   </>
   );
 };

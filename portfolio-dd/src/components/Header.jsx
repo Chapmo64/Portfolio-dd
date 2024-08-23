@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg  fixed-top ">
-        <div className="container-fluid mt-3">
+        <div className="container-fluid mt-3" >
           <a className="navbar-brand" href="#">
             <img className="logo-nav"
               src="BLogo.png"
@@ -28,7 +28,7 @@ export const Header = () => {
           <div className="nav-cont collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="/">
+                <Link to="/#">
                 <span className="nav-link active" aria-current="page" href="#" id="nav-home">
                   HOME
                 </span>
@@ -48,8 +48,8 @@ export const Header = () => {
                   </span>
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to='/Portfolio'>
+              <li className="nav-item" >
+                <Link to='/Portfolio#Pstart'>
                 <span className="nav-link active" aria-current="page" href="#">
                   PORTFOLIO
                 </span>

@@ -315,3 +315,22 @@ nav-link:{
     height: 20%;
     width: 10%;
 }
+
+.app-background{
+    background-image: url('Port_Back.png');
+    background-attachment: contain;
+    height: 100;
+    width: 100%;
+}
+
+#CMOut{
+    color: #FDF4ED;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.Csection{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
