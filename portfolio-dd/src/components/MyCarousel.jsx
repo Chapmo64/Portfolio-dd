@@ -37,23 +37,23 @@ const MyCarousel = () => {
             backgroundImage: 'url(amazon.png)',}}>
               <span>
                 <br /><br /><br /><br /><br /><br /><br /><br /><br />
-                  <a href="">AMAZON_CLONE</a>
+                  <a href="https://github.com/Chapmo64/Amazonclone">AMAZON_CLONE</a>
               </span>
             </li>
           <li className="splide__slide" style={{
             backgroundImage: 'url(spot.png)',}}><span>
             <br /><br /><br /><br /><br /><br /><br /><br /><br />
-              <a href="">SPOTIFY_CLONE</a>
+              <a href="https://github.com/Chapmo64/Spotifyclone">SPOTIFY_CLONE</a>
           </span></li>
           <li className="splide__slide" style={{
             backgroundImage: 'url(calc.png)',}}><span>
             <br /><br /><br /><br /><br /><br /><br /><br /><br />
-              <a href="">CALCULATOR</a>
+              <a href="https://github.com/Chapmo64/Calculator">CALCULATOR</a>
           </span></li>
           <li className="splide__slide" style={{
             backgroundImage: 'url(card.png)',}}><span>
             <br /><br /><br /><br /><br /><br /><br /><br /><br />
-              <a href="">CARD_CREATER</a>
+              <a href="https://github.com/Chapmo64/Card_gen">CARD_CREATER</a>
           </span></li>
         </ul>
       </div>
