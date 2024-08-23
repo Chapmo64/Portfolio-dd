@@ -28,7 +28,7 @@ export const Header = () => {
           <div className="nav-cont collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="/#">
+                <Link to="/#" id="link">
                 <span className="nav-link active" aria-current="page" href="#" id="nav-home">
                   HOME
                 </span>
@@ -49,7 +49,7 @@ export const Header = () => {
                 </Link>
               </li>
               <li className="nav-item" >
-                <Link to='/Portfolio#Pstart'>
+                <Link to='/Portfolio#Pstart' id="link">
                 <span className="nav-link active" aria-current="page" href="#">
                   PORTFOLIO
                 </span>

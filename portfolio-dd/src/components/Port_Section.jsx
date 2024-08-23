@@ -11,7 +11,7 @@ export const Port_Section = () => {
         display: "flex",
       }}>
         <h2 className='fw-bold'>TECHNICAL PROJECT</h2>
-        <a id="CMOut"href="#" style={{
+        <a id="CMOut"href="https://github.com/Chapmo64" style={{
             position: "relative",
             top: ".8em",
             left: "8em",

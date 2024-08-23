@@ -11,7 +11,7 @@ export const Port_Section2 = () => {
         display: "flex",
       }}>
         <h2 className='fw-bold'>NON-TECHNICAL PROJECT</h2>
-        <a id="CMOut" href="#"style={{
+        <a id="CMOut" href="https://www.deviantart.com/chapmo64"style={{
             position: "relative",
             top: ".8em",
             left: "5em",

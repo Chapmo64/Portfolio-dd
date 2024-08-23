@@ -264,8 +264,8 @@ nav-link:{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em;
-    margin-top: 2em;
+    /* padding: 2em;
+    margin-top: 2em; */
     list-style: none;
     gap: 3rem;
     font-size: 2em;
@@ -333,4 +333,9 @@ nav-link:{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+a{
+    color: #FDF4ED;
+    text-decoration: none;
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Hero = () => {
   return (
-    <div className="d-flex">
+    <div className="d-flex" id="home">
     <div
       className="hero page-header min-vh-100"
       style={{
