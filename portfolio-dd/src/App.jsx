@@ -8,6 +8,7 @@ import { SpaceSection01 } from './components/SpaceSection01';
 import { Fotter } from './components/Fotter';
 import { Skills } from './components/Skills';
 import Portfolio from './components/Portfolio';
+import Portfolio2 from './components/Portfolio2';
 import { Port_Section } from './components/Port_Section';
 import { Port_Section2 } from './components/Port_Section2';
 
@@ -46,7 +47,7 @@ const PortfolioPage = () => {
       <Portfolio></Portfolio>
       <br /><br />
       <Port_Section2></Port_Section2>
-      <Portfolio></Portfolio>
+      <Portfolio2></Portfolio2>
     </div>
   </>
   );

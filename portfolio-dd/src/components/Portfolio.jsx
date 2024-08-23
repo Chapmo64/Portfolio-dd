@@ -5,11 +5,11 @@ const Portfolio = () => {
 
   return(
     <div className='Csection'>
-      <br />
+      
       <MyCarousel />
       <br /><br />
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem quae nostrum, doloremque sequi aliquam perferendis repellendus ex odit totam pariatur vel? Reiciendis, suscipit commodi? Distinctio quibusdam saepe consequatur consequuntur!loram
-      </p>
+      <h3>These are the Projects I made in my free time and during the training and online self-study seations</h3>
+      <h4>Technical Projects to learn Whole of Web-Dev</h4>
       <br />
     </div>
   );

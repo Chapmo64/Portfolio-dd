@@ -3,7 +3,7 @@ import Splide from '@splidejs/splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import './MyCarousel.css'; // Assuming you put the styles in a separate CSS file
 
-const MyCarousel = () => {
+const MyCarousel2 = () => {
   const splideRef = useRef(null);
   const barRef = useRef(null);
 
@@ -34,26 +34,26 @@ const MyCarousel = () => {
       <div className="splide__track">
         <ul className="splide__list">
           <li className="splide__slide" style={{
-            backgroundImage: 'url(amazon.png)',}}>
+            backgroundImage: 'url(blend.png)',}}>
               <span>
                 <br /><br /><br /><br /><br /><br /><br /><br /><br />
-                  <a href="">AMAZON_CLONE</a>
+                  <a href="">3D_MODELING</a>
               </span>
             </li>
           <li className="splide__slide" style={{
-            backgroundImage: 'url(spot.png)',}}><span>
+            backgroundImage: 'url(Art.png)',}}><span>
             <br /><br /><br /><br /><br /><br /><br /><br /><br />
-              <a href="">SPOTIFY_CLONE</a>
+              <a href="">DIGITAL_ART</a>
           </span></li>
           <li className="splide__slide" style={{
-            backgroundImage: 'url(calc.png)',}}><span>
+            backgroundImage: 'url(game.png)',}}><span>
             <br /><br /><br /><br /><br /><br /><br /><br /><br />
-              <a href="">CALCULATOR</a>
+              <a href="">GAME_DEV</a>
           </span></li>
           <li className="splide__slide" style={{
-            backgroundImage: 'url(card.png)',}}><span>
+            backgroundImage: 'url(design.png)',}}><span>
             <br /><br /><br /><br /><br /><br /><br /><br /><br />
-              <a href="">CARD_CREATER</a>
+              <a href="">WEB_DESIGN</a>
           </span></li>
         </ul>
       </div>
@@ -64,4 +64,4 @@ const MyCarousel = () => {
   );
 };
 
-export default MyCarousel;
+export default MyCarousel2;

@@ -11,12 +11,23 @@
   
   .splide__slide{
     background-color: #ccc;
-    height: 35em;
+    height: 40em;
     width: auto;
+    border: 1em solid #7E522B;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .splide{
-    padding-left: 15em;
-    padding-right: 15em;
-    
+    padding-left: 25em;
+    padding-right: 25em;
   }
+
+  .splide a{
+    text-decoration: none;
+    transition: color 300ms ease;
+    font-size: 6em;
+    text-shadow: #7E522B 0px .1em ;
+  }
+ 
