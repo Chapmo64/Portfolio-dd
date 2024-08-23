@@ -28,39 +28,34 @@ export const Header = () => {
           <div className="nav-cont collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#" id="nav-home">
+                <Link to="/">
+                <span className="nav-link active" aria-current="page" href="#" id="nav-home">
                   HOME
-                </a>
+                </span>
+                </Link>
               </li>
               <li className="nav-item">
-                {/* <a className="nav-link active" aria-current="page" href="#">
-                  ABOUT
-                </a> */}
-                <Link to='#about' id="link">
+                <Link to='/#about' id="link">
                   <span className="nav-link active" aria-current="page">
                     ABOUT
                   </span>
                 </Link>
               </li>
               <li className="nav-item">
-                {/* <a className="nav-link active" aria-current="page" href="#">
-                  SERVIECS
-                </a> */}
-                <Link to='#services' id="link">
+                <Link to='/#services' id="link">
                   <span className="nav-link active" aria-current="page">
                     SERVICES
                   </span>
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link to='/Portfolio'>
+                <span className="nav-link active" aria-current="page" href="#">
                   PORTFOLIO
-                </a>
+                </span>
+                </Link>
               </li>
               <li className="nav-item">
-                {/* <a className="nav-link active" aria-current="page" href="#">
-                  CONTACT
-                </a> */}
                 <Link to='#Fotter' id="link">
                   <span className="nav-link active" aria-current="page">
                     CONTACT

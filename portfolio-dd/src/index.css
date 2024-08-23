@@ -142,6 +142,15 @@ body {
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #FDF4ED;
+    text-decoration: none;
+}
+
+#link{
+    text-decoration: none;
+}
+
+nav-link:{
+    text-decoration: none;
 }
 
 #nav-home, .nav-home {
@@ -154,6 +163,7 @@ body {
     font-size: xx-large;
     margin: 10px;
 }
+
 
 .logo-nav {
     position: absolute;
